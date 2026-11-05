@@ -9,4 +9,5 @@
 .keyboard { display: grid; grid-template-columns: repeat(13, 1fr); gap: 10px; }
 .key { background: #fff; color: #111827; border: 1px solid #e5e7eb; border-radius: 8px; padding: 14px 0; font-size: 15px; font-weight: 700; cursor: pointer; }
 .key:hover { background: #f9fafb; }
-.backspace-key { background: #f9fafb; color: #6b7280; border: 1px solid #e5e7eb; font-size: 13px; font-weight: 500; padding: 8px 14px; width: auto; border-radius: 6px; }
+.backspace-key { background: #f9fafb; color: #6b7280; border: 1px solid #e5e7eb; font-size: 13px; font-weight: 500; padding: 8px 14px; width: auto; border-radius: 6px; cursor: pointer; }
+.backspace-key:hover { background: #f3f4f6; }
