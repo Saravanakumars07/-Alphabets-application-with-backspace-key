@@ -34,6 +34,7 @@ function App() {
         <h1>Alphabet Buttons</h1>
         <p className="subtitle">Click letters (or use your keyboard) to build text.</p>
 
+       
         <div className="output" data-placeholder="Your text will appear here...">
           {output}
         </div>
