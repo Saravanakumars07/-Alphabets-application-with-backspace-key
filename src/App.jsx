@@ -34,12 +34,12 @@ function App() {
         <h1>Alphabet Buttons</h1>
         <p className="subtitle">Click letters (or use your keyboard) to build text.</p>
 
-        <div className={`output ${output === "" ? "placeholder" : ""}`}>
-          {output === "" ? "Your text will appear here..." : output}
+        <div className="output" data-placeholder="Your text will appear here...">
+          {output}
         </div>
 
         <div className="backspace-row">
-          <button className="key backspace-key" onClick={handleBackspace}>
+          <button type="button" className="key backspace-key" onClick={handleBackspace}>
             Backspace
           </button>
         </div>
@@ -48,6 +48,7 @@ function App() {
           {alphabets.map((letter) => (
             <button
               key={letter}
+              type="button"
               className="key"
               onClick={() => handleKeyClick(letter)}
             >
